@@ -13,3 +13,8 @@
 .container-visitor{
      width: 70vw;
 }
+
+.option{
+    display: flex;
+    align-items: center;
+}

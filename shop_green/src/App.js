@@ -11,8 +11,8 @@ function App() {
         window.scrollTo(0, 0);
       }
     return (
-        <div className="App container-visitor_parent"  >
-            <div className="container-visitor">
+        <div className="App" >
+           
             <Router>
                 <Header />
                 <Switch>
@@ -25,8 +25,7 @@ function App() {
 
                 </Switch>
             </Router>
-            </div>
-        </div>
+            </div> 
     );
 }
 
