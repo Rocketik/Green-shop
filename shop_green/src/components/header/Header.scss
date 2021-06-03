@@ -1,3 +1,9 @@
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header_top_navbar_item {
   list-style: none;
   display: flex;
@@ -41,6 +47,12 @@
 
     &_navbar {
       display: flex;
+    }
+
+    &_select {
+      &_item {
+        @include center();
+      }
     }
   }
 }

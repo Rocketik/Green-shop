@@ -1,6 +1,12 @@
 import React from "react";
 import HeaderTopNavbar from "./HeaderTopNavbar";
 import HeaderTopSelectItem from "./HeaderTopSelectItem";
+import ukFlag from "../../../assets/images/select-flags_uk.svg";
+import russiaFlag from "../../../assets/images/select-flags_russia.svg";
+import armeniaFlag from "../../../assets/images/select-flags_armenia.svg";
+import ukValet from "../../../assets/images/select-valet_dollar.svg";
+import russiaValet from "../../../assets/images/select-valet_ruble.svg";
+import armeniaValet from "../../../assets/images/select-valet_dram.svg";
 
 const config = [
   {
@@ -10,14 +16,17 @@ const config = [
       {
         value: "uk",
         label: "English",
+        icon: ukFlag,
       },
       {
         value: "armenia",
         label: "Armenian",
+        icon: armeniaFlag,
       },
       {
         value: "russia",
         label: "Russian",
+        icon: russiaFlag,
       },
     ],
   },
@@ -28,15 +37,17 @@ const config = [
       {
         value: "doller",
         label: "Doller",
+        icon: ukValet,
       },
       {
         value: "dram",
-
         label: "Dram",
+        icon: armeniaValet,
       },
       {
         value: "ruble",
         label: "Ruble",
+        icon: russiaValet
       },
     ],
   },
